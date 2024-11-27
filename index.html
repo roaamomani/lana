@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>lana Manaseer</title>
+    <style>
+        /* التنسيق العام */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        header .navigation a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        header .navigation a:hover {
+            text-decoration: underline;
+        }
+
+        /* قسم المتابعين */
+        .followers-header {
+            text-align: center;
+            color: #003366;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .social-stats {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .social-stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.2em;
+            justify-content: center;
+            text-align: center;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-stat i {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .social-stat p {
+            margin: 5px 0;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .gender-info {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .gender-info span {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .gender-info .male {
+            color: #007bff;
+        }
+
+        .gender-info .female {
+            color: #ff66b2;
+        }
+
+        /* الفئات العمرية */
+        .age-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .age-groups {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .age-group {
+            width: 150px;
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .age-group h3 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #003366;
+        }
+
+        .age-group p {
+            font-size: 1.2em;
+            color: #007bff;
+        }
+
+        .age-bar {
+            height: 15px;
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .age-bar div {
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .age-18-25 {
+            width: 45%;
+            background-color: #ff66b2;
+        }
+
+        .age-26-35 {
+            width: 30%;
+            background-color: #007bff;
+        }
+
+        .age-36-plus {
+            width: 25%;
+            background-color: #28a745;
+        }
+
+        /* الفوتر */
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: white;
+        }
+
+        footer .social-icons a:hover {
+            color: #ff66b2;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">lana almanaser</a>
+        <nav class="navigation">
+            <a href="#services">Services</a>
+            <a href="#projects">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Lana<br><span>BUSINESS AND LIFESTYLE INFLUENCER</span></h2>
+            <h3>I build life changing courses</h3>
+            
+            <div class="social-icons">
+                <a href="https://www.instagram.com/lanaalmanaseerr?igsh=MWl3ZDM4d3VibnFsMA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61554842039199&mibextid=JRoKGi" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://snapchat.com/t/mViMmvmU" target="_blank"><i class="fab fa-snapchat"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Lana Almanaseer</h2>
+        <p>Lana Almanaseer is an entrepreneur and influencer in the world of social media. She is the owner of "All About Aqaba" a company dedicated to highlighting the beauty of Aqaba city and promoting it as a distinctive tourist destination worldwide.</p>
+    </section>
+
+    <!-- قسم المتابعين مع تقسيم عدد الرجال والنساء -->
+    <section class="followers">
+        <div class="followers-header">
+            <h2>My Social Followers</h2>
+            <p>Check out my amazing followers across various social media platforms.</p>
+        </div>
+
+        <div class="social-stats">
+            <div class="social-stat">
+                <i class="fab fa-instagram"></i>
+                <p>90k Followers</p>
+                <div class="gender-info">
+                    <span class="male"><i class="fas fa-male"></i> 800 Men</span>
+                    <span class="female"><i class="fas fa-female"></i> 700 Women</span>
+                </div>
+            </div>
+
+            <div class="social-stat">
+                <i class="fab fa-facebook"></i>
+                <p>73k Followers</p>
+                <div class="gender-info">
+                    <span class="male"><i class="fas fa-male"></i> 600 Men</span>
+                    <span class="female"><i class="fas fa-female"></i> 600 Women</span>
+                </div>
+            </div>
+
+            <div class="social-stat">
+                <i class="fab fa-snapchat"></i>
+                <p>22k Followers</p>
+                <div class="gender-info">
+                    <span class="male"><i class="fas fa-male"></i> 100 Men</span>
+                    <span class="female"><i class="fas fa-female"></i> 400 Women</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الفئات العمرية -->
+    <section class="age-section">
+        <h2>Age Group Distribution</h2>
+        <div class="age-groups">
+            <div class="age-group">
+                <h3>18-25</h3>
+                <p>45% of my audience</p>
+                <div class="age-bar"><div class="age-18-25"></div></div>
+            </div>
+            <div class="age-group">
+                <h3>26-35</h3>
+                <p>30% of my audience</p>
+                <div class="age-bar"><div class="age-26-35"></div></div>
+            </div>
+            <div class="age-group">
+                <h3>36+</h3>
+                <p>25% of my audience</p>
+                <div class="age-bar"><div class="age-36-plus"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <div class="info">
+                    <h3>Social Media Marketing</h3>
+                    <p>Creating engaging content and campaigns to promote Aqaba as a top tourist destination.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-camera-retro"></i>
+                </div>
+                <div class="info">
+                    <h3>Brand Collaborations</h3>
+                    <p>Partnering with leading brands to create impactful collaborations.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Tourism Promotion</h3>
+                    <p>Developing strategies to promote Aqaba's attractions worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>00962790846327</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>lanaalmanaseerr@gmail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title"><span>lana almanaser</span></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/lanaalmanaseerr?igsh=MWl3ZDM4d3VibnFsMA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61554842039199&mibextid=JRoKGi" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://snapchat.com/t/mViMmvmU" target="_blank"><i class="fab fa-snapchat"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
